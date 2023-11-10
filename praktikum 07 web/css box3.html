@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box 3</title>
+
+    <!-- Bikin css -->
+    <style>
+            .container {
+                display: flex;
+                gap: 10px; 
+            }
+
+            .row1,
+             .Box1 {
+                display: flex;
+                gap: 10px;
+            }
+            .row1{
+                background-color: yellow;
+                height: 50px;
+                max-width: 200px;
+                flex-grow: 1;
+            }
+
+            .row2 {
+                display: flex;
+                gap: 10px;
+                height: 50px;
+                flex-grow: 2;
+            }
+
+            .row2 {
+                background-color: darkgoldenrod;
+                height: 50px;
+                max-width: 580px;
+                flex-grow: 2;
+            }
+
+            .Box1 {
+                display: flex;
+                align-items: left;
+                background-color: dodgerblue;
+                height: 500px;
+                margin-right: 10px;
+                max-width: 200px;
+                flex-grow: 1;
+
+            }
+
+            .Box2 {
+                display: flex;
+                align-items: left;
+                background-color: cyan;
+                height: 500px;
+                margin-right: 10px;
+                max-width: 350px;
+                flex-grow: 1;
+                gap: 10px; 
+            }
+
+            .Box3 {
+                display: flex;
+                align-items: left;
+                background-color: blueviolet;
+                height: 500px;
+                margin-right: 10px;
+                max-width: 200px;
+                flex-grow: 1;
+            }
+
+            .row3 {
+                background-color: darkgray;
+                height: 50px;
+                max-width: 790px;
+                flex-grow: 1;
+            }
+
+         </style>
+   </head>
+   <body>
+     <div class="container">
+        <!-- Baris 1 -->
+        <div class="row1">Baris 1</div>
+        <!-- Baris 2 -->
+        <div class="row2">Baris 2</div>
+           
+        </div>
+            <!-- bikin kotak container-->
+    <div class="container">
+        <!-- Bikin 3 Kotak pake div -->
+        <div class="Box1">Box 1</div>
+        <div class="Box2">Box 2</div>
+        <div class="Box3">Box 3</div>
+        </div>
+        <div class="row3">Baris 3</div>
+    </div>
+</body>
+</html>
